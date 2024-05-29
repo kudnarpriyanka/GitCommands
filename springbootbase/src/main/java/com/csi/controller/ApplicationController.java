@@ -17,7 +17,10 @@ public class ApplicationController {
 	public String sayServices() {
 		return "SOFTWARE SERVICES";
 	}
-	
-	
+
+	@GetMapping("/product")
+	public String product(){
+		return "product";
+	}
 
 }
