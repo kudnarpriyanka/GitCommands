@@ -20,7 +20,7 @@ public class ApplicationController {
 
 	@GetMapping("/product")
 	public String product(){
-		return "product";
+		return "product
 	}
 
 }
